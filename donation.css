@@ -1,0 +1,210 @@
+@font-face {
+    font-family: flood;
+    src: url(./donation/FloodStd.otf);
+  }
+body{
+    font-family: Helvetica;
+}
+
+.first-head{
+    font-size: 28px;
+    font-weight: bold;
+    color: #354463;
+    text-align: center;
+    padding: 28px 0px 28px 0px;
+    line-height: normal;
+}
+
+.bor{
+    border: 2px solid #C1F7D5;
+}
+.second{
+    background: transparent url('./donation/annie-spratt-427340-unsplash-(1)@2x.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    background-color: #354463;
+    background-size: cover;
+}
+.second-head{
+    font-family: flood;
+    color: #FFFFFF;
+    font-size: 72px;
+    line-height: normal;
+}
+.form-head-1{
+    font-size: 28px;
+    color: white;
+    font-weight: bold;
+}
+.second-form-div{
+    background-color: #354463;
+}
+
+.form-input{
+    border: none;
+    background-color: #354463;
+    font-size: 20px;
+    width: 100%;
+}
+.form-name{
+    font-size: 22px;
+    color: white;
+}
+.form-content{
+    padding: 50px;
+}
+.form-select{
+    border: none;
+    background-color: #354463;
+    font-size: 20px;
+    color: #C1F7D5;
+    width: 100%;
+}
+
+.form-name-in{
+    color: #354463;
+}
+.form-a{
+    color: #C1F7D5;
+    text-decoration: underline;
+}
+.form-a:hover{
+    text-decoration: none;
+    color: #C1F7D5;
+    text-decoration: underline;
+}
+.form-button{
+    background-color: #C1F7D5;
+    border: none;
+    font-size: 22px;
+    font-weight: bold;
+    color: #354463;
+    padding: 10px 0px;
+    border-radius: 100px;
+    width: 100%;
+}
+.form-part2{
+    padding-top: 20px;
+}
+.form-part3{
+    padding: 20px 0px;
+}
+.second-content{
+    padding: 80px 0px;
+}
+
+
+
+
+.eight-content{
+    line-height: normal;
+    padding: 120px 0px;
+}
+.eight-text-content{
+    line-height: 10px;
+}
+.eight-head-1{
+    font-size: 22px;
+    font-weight: bold;
+    color: #354463;
+}
+.eight-head-2{
+    font-size: 14px;
+    color: #354463;
+}
+.eight-text{
+    font-size: 14px;
+    color: #354463;
+}
+.eight-head-3{
+    font-size: 44px;
+    font-family: flood;
+    color: #354463;
+}
+.eight-line{
+    border: 1px solid #354463;
+}
+
+
+@media only screen and (max-width:768px){
+    .second-head{
+        font-size: 55px;
+        
+    }
+    .second-head-content{
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+
+    .eight-head-1{
+        font-size: 32px;
+        padding-bottom: 50px;
+    }
+    .eight-content{
+        line-height: 10px;
+        text-align: center;
+    }
+    .eight-head-3{
+        font-size: 44px;
+        padding-top: 30px;
+    }
+    .eight-content{
+        line-height: normal;
+        padding: 50px 0px;
+    }
+
+}
+
+@media only screen and (max-width:576px){
+    .first-head{
+        font-size: 18px;
+        padding: 20px 0px;
+    }
+    .second-head{
+        font-size: 32px;
+    }
+    .form-name{
+        font-size: 11px;
+    }.form-input{
+        font-size: 16px;
+    }
+    .form-content{
+        padding: 32px;
+    }
+    .form-head-1{
+        font-size: 22px;
+    }
+    .form-select{
+        font-size: 18px;
+    }
+    .second-a{
+        padding-top: 30px;
+    }
+    .form-part2{
+        padding-top: 0px;
+    }
+    .form-part3{
+        padding: 0px 0px;
+    }
+    .second-content{
+        padding: 40px 0px;
+    }
+    .second-head-content{
+        padding-bottom: 20px;
+    }
+    .form-button{
+        font-size: 16px;
+        padding: 8px 0px;
+    }
+
+
+    .eight-head-1{
+        padding-bottom: 20px;
+    }
+    .eight-head-3{
+        padding-top: 20px;
+    }
+    .eight-text-content{
+        line-height: 13px;
+    }
+}
